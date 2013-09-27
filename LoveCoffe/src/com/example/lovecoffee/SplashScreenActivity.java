@@ -1,8 +1,5 @@
 package com.example.lovecoffee;
 
-import com.example.lovecoffee.R;
-import com.google.android.maps.MapActivity;
-
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;

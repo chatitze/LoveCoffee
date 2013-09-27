@@ -51,10 +51,8 @@ public class MapViewActivity extends Activity {
 				.snippet("My babies place :P")
 				.icon(BitmapDescriptorFactory
 						.fromResource(R.drawable.baby)));
-		
 
-		// Move the camera instantly to hamburg with a zoom of 15.
-		//map.moveCamera(CameraUpdateFactory.newLatLngZoom(HAMBURG, 15));
+		// Move the camera instantly to London with a zoom of 15.
 		map.moveCamera(CameraUpdateFactory.newLatLngZoom(LONDON, 15));
 		
 		// Zoom in, animating the camera.
